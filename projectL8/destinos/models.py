@@ -2,7 +2,6 @@ from django.db import models
 
 # Create your models here.
 class DestinoTuristico(models.Model):
-    destino = models.AutoField(primary_key=True)
     nombre_ciudad = models.CharField(max_length=50)
     descripcion_ciudad = models.TextField()
     imagen_ciudad = models.ImageField(upload_to='fotos_destinos/')
