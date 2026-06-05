@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load static %}
 
+{% block estilos %}
+	<link rel="stylesheet" type="text/css" href="{% static "styles/contact.css" %}">
+	<link rel="stylesheet" type="text/css" href="{% static "styles/contact_responsive.css" %}">
+{% endblock %}
+
 {% block home %}
 
 	<div class="home">
